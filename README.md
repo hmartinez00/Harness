@@ -38,6 +38,11 @@ Los recursos se encuentran bajo [`laravel_harness/`](./laravel_harness/):
 | [`arnes-configuracion-agentes-2026-09.md`](./laravel_harness/arnes-configuracion-agentes-2026-09.md) | Registro histórico de una configuración de agentes y herramientas en un proyecto. No es la fuente de estado actual de un proyecto destino. |
 | [`external.txt`](./laravel_harness/external.txt) | Referencias externas y notas de instalación recopiladas durante la exploración. |
 
+También está disponible en la raíz el [prompt para planificar y configurar
+todos los servidores MCP inventariados en OpenCode](./configurar-mcp-opencode.md).
+Para las skills, consulta el [prompt para planificar y configurar las skills
+inventariadas en OpenCode](./configurar-skills-opencode.md).
+
 ## Flujo de referencia para proyectos legacy
 
 Los prompts numerados presentan una secuencia inicial para preparar el trabajo

@@ -1,2 +1,5 @@
+MCPs:
 https://mcp.context7.com/mcp
+
+SKILLS:
 npx skills add https://github.com/anthropics/skills --skill frontend-design
