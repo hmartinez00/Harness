@@ -1,0 +1,24 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true
+    },
+    "openrouter": {
+      "type": "remote",
+      "url": "https://mcp.openrouter.ai/mcp",
+      "enabled": true
+    },
+    "image-gen": {
+      "type": "local",
+      "command": ["npx", "-y", "mcpimg"],
+      "environment": {
+        "OPENROUTER_API_KEY": "{file:.opencode-secrets}"
+      },
+      "enabled": true,
+      "timeout": 120000
+    }
+  }
+}
